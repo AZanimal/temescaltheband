@@ -10,6 +10,7 @@
 
 export default {
 	async fetch(request, env, ctx) {
-		return new Response('Hello from Temescal live!');
+		return env.ASSETS.fetch(request);
+		// return new Response('Hello from Temescal live!');
 	},
 };
