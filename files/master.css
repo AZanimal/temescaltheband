@@ -1,0 +1,19 @@
+body {
+  background-color: #132d44;
+  color: #ffffff;
+  font-family: "Lucida Sans Unicode";
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a:link {
+  color: #ffffff;
+}
+a:hover {
+  color: #ffffff;
+}
+a:visited {
+  color: #ffffff;
+}
